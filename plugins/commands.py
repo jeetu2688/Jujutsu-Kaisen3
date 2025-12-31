@@ -175,7 +175,7 @@ async def start(client:Client, message):
                 newPoint = await db.get_point(refUserId)
                 if AUTH_CHANNEL and await is_req_subscribed(client, message):
                         buttons = [[
-                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.Jujutsubot3}?startgroup=start')
+                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'https://t.me/+1yE0qrc9kIlhNmJl')
                         ],[
                             InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='admincmd'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
@@ -1057,4 +1057,5 @@ async def verifyon(bot, message):
     
     await save_group_settings(grpid, 'is_verify', True)
     return await message.reply_text("Verification successfully enabled.")
+
 
