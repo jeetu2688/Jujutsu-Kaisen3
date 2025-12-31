@@ -3,7 +3,7 @@ class script(object):
     START_TXT = """<b>ʜᴇʏ {}, {}\n\n🚫 TO USE THIS BOT, YOU MUST JOIN OUR PARTNER CHANNELS BELOW. 📢
 
 This is to protect our content.
-Please join them and tap the Try Again ✅ button. !! 😍\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/JujutsuBot3">Jujutsu Bᴏᴛs</a></blockquote></b>"""
+Please join them and tap the Try Again ✅ button. !! 😍\n<blockquote>🌿 Join Here 🔥👉🏻 : <a href="https://t.me/+1yE0qrc9kIlhNmJl>Jujutsu Bᴏᴛs</a></blockquote></b>"""
     
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
     
@@ -371,4 +371,5 @@ developer : Mr.Jujutsu
 ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 </blockquote>
 Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://t.me/JujutsuBot3">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://t.me/IM_JISSHU">ᴀᴅᴍɪɴ</a></b>"""
+
 
