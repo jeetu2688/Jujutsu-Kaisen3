@@ -175,16 +175,25 @@ async def start(client:Client, message):
                 newPoint = await db.get_point(refUserId)
                 if AUTH_CHANNEL and await is_req_subscribed(client, message):
                         buttons = [[
-                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
-                        ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='admincmd'),
-                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
-                        ],[
-                            InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
-                        ],[
-                            InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                            
+    [
+        InlineKeyboardButton("📢 Join 1", url="https://t.me/+1yE0qrc9kIlhNmJl")
+    ],
+    [
+        InlineKeyboardButton("⚡ Join 2", url="https://t.me/+Oi1XPw17o6tjNzM1")
+    ],
+    [
+        InlineKeyboardButton("Pʀᴇᴍɪᴜᴍ 🎫", callback_data="seeplans")
+    ]
+]
+
+markup = InlineKeyboardMarkup(buttons)
+
+await update.message.reply_text(
+    "🔥 *Welcome Jujustu Bhai!* 😎\n\n👇 Join our channels to unlock access 🚀",
+    reply_markup=markup,
+    parse_mode="Markdown"
+)
                         ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgQAAxkBAAEn9_ZmGp1uf1a38UrDhitnjOOqL1oG3gAC9hAAAlC74FPEm2DxqNeOmB4E") 
@@ -1057,3 +1066,4 @@ async def verifyon(bot, message):
     
     await save_group_settings(grpid, 'is_verify', True)
     return await message.reply_text("Verification successfully enabled.")
+
